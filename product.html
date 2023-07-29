@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="#"><b>V-STORE</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="pro_content">
+            <div class="card-box">
+                <div class="card">
+                    <img src="images/rog.png" style="width: 70%">
+                        <div class="text1">
+                        <h4>ASUS ROG Strix Scar</h4>
+                        <p>
+                            _ CPU : Core i9<br>
+                            _ RAM : 32GB<br>
+                            _ Storage : 1TB PCIe G4 SSD<br>
+                            _ Graphic card : RTX 4090<br>
+                            _ OS : Windows 11 License<br>
+                            _ Free : backpack, speaker, mouse<br>
+                        <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$2,099</button>
+                        </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/msi1.png" style="width: 75%">
+                    <div class="text1">
+                        <h4>MSI</h4>
+                        <p>
+                            _ CPU : Core i5<br>
+                            _ RAM : 16GB (512GB PCIe SSD)<br>
+                            _ VGA : Intel Iris Xe Graphic<br>
+                            _ Feature : Backlit Keyboard<br>
+                            _ OS : Windows 10<br>
+                            <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$720</button>
+                        </p>
+                    </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/oled.png" style="width: 70%">
+                    <div class="text1">
+                        <h4>ASUS Oled 14</h4>
+                        <p>
+                            _ CPU : Core i5<br>
+                            _ RAM : 8GB<br>
+                            _ SSD : 512 GB<br>
+                            _ Feature: Backlit Keyboard<br>
+                            
+                            <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$599</button>
+                        </p>
+                    </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/mac.png" style="width: 80%">
+                    <div class="text1">
+                    <h4>Apple MacBook Pro 13</h4>
+                <p>
+                    _ CPU : Core i7<br>
+                    _ RAM : 8GB<br>
+                    _ Storage : 512GB SSD (up to 1TB)<br>
+                    _ Feature : Backlit Keyboard, suitable for work<br>
+                    _ Free : backpack, Keyboard, mouse, flash...<br>
+                    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$859</button>
+                </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/s14.png" style="width: 80%">
+                <div class="text1">
+                <h4>ASUS VivoBook S15</h4>
+                <p>
+                    _ CPU : Core i5<br>
+                    _ RAM : 8GB<br>
+                    _ SSD : 512 GB<br>
+                    _ VGA : Intel Iris Xe Graphic<br>
+                    _ Feature: RGB Keyboard<br>
+                    _ OS : Windows 11 License<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$599</button>
+                </p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/rog2.png" style="width: 70%">
+                <div class="text1">
+                <h4>ASUS ROG Strix Scar</h4>
+                <p>
+                    _ CPU : Core i7<br>
+                    _ RAM : 8GB<br>
+                    _ Storage : 512 GB<br>
+                    _ Graphic card : RTX 3090
+                    _ Feature: RGB Keyboard<br>
+                    _ Free: wireless mouse, speaker, flash<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$947</button>
+                </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/lenovo_yoga.png" style="width: 75%">
+                <div class="text1">
+                <h4>Lenovo YOGA</h4>
+                <p>
+                    _ CPU : Core i5<br>
+                    _ RAM : 8GB<br>
+                    _ Storage : 256 GB<br>
+                    _ VGA : intel Iris Xe Graphic<br>
+                    _ Feature: touch screen<br>
+                    _ Windows 10 license<br>
+                    _ Free: wireless mouse, speaker, flash<br>
+                    _ Free: Pen<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$534</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/lenovo_y.png" style="width: 75%">
+                <div class="text1">
+                <h4>Lenovo legion Y</h4>
+                <p>
+                    _ CPU : Core i5<br>
+                    _ RAM : 16GB<br>
+                    _ Storage : 512 GB<br>
+                    _ Graphic card : RTX 3090
+                    _ Feature: RGB Keyboard<br>
+                    _ Free: wireless mouse, speaker, flash<br>
+                    _ Assurance: two years
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$999</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dell.png" style="width: 75%">
+                <div class="text1">
+                <h4>Dell</h4>
+                <p>
+                    _ CPU : Core i5<br>
+                    _ RAM : 8GB<br>
+                    _ Storage : 512 GB<br>
+                    _ OS : Windows 11 license<br>
+                    _ Feature: RGB Keyboard<br>
+                    _ Free: wireless mouse, speaker, flash<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$619</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/lenovo_thinkpad.png" style="width: 70%">
+                <div class="text1">
+                <h4>Lenovo Thinkpad</h4>
+                <p>
+                    _ CPU : Core i5<br>
+                    _ RAM : 16GB<br>
+                    _ Storage : 512 GB<br>
+                    _ OS : Windows lecense<br>
+                    _ Feature: RGB Keyboard<br>
+                    _ Free: wireless mouse, speaker, flash<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$719</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/lenovo_yoga1.png" style="width: 90%">
+                <div class="text1">
+                <h4>Lenovo YOGA</h4>
+                <p>
+                    _ CPU : Core i7<br>
+                    _ RAM : 8GB<br>
+                    _ Storage : 512 GB<br>
+                    _ OS : Windows 10 license<br>
+                    _ Feature: touch screen<br>
+                    _ Free: wireless mouse, speaker, flash<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$633</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/acer.png" style="width: 70%">
+                <div class="text1">
+                <h4>Acer</h4>
+                <p>
+                    _ CPU : Core i5<br>
+                    _ RAM : 16GB<br>
+                    _ Storage : 512 GB<br>
+                    _ OS : Windows 11 license<br>
+                    _ Feature: touch screen<br>
+                    _ Free : backpack, keyboard, wireless mouse...<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$729</button>
+                </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="images/keyboard.png" style="width: 90%">
+                <div class="text1">
+                <h4>Keyboard</h4>
+                <p>
+                    _ Color: Black<br>
+                    _ Light: None<br>
+                    _ Feature: Easy to clean<br>
+                    _ Thin and Light<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$20</button>
+                </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/razer_mouse.png" style="width: 60%">
+                <div class="text1">
+                <h4>Mouse</h4>
+                <p>
+                    _ Color: Black, Green and Red<br>
+                    _ Feature: wireless<br>
+                    _ Suitable for: Gaming<br>
+                    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$15</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/thong1.png" style="width: 60%">
+                <div class="text1">
+                <h4>Gaming Component</h4>
+                <p>
+                    _ Color: RGB<br>
+                    _ Include: Keyboard, mouse and case<br>
+                    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$429</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/headset.png" style="width: 75%">
+                <div class="text1">
+                <h4>Headset</h4>
+                <p>
+                    _ Color: Blue<br>
+                    _ Feature: Thin and Light<br>
+                    _ Assurance: 1 year<br>
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$40</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/monitor.png" style="width: 65%">
+                <div class="text1">
+                <h4>Monitor</h4>
+                <p>
+                    _ Screen: 16 inch<br>
+                    _ Color: Black<br>
+                   
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$429</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/headgreen.png" style="width: 70%">
+                <div class="text1">
+                <h4>Headset</h4>
+                <p>
+                    _ Color: Black and Green<br>
+                    _ Feature: AI noise canceling<br>
+                    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$48</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/rog_keyboard.png" style="width: 80%">
+                <div class="text1">
+                <h4>Gaming Keyboard</h4>
+                <p>
+                    _ Color: RGB<br>
+                    _ Feature: Big Key<br>
+                    _ Not easily broken<br>
+                    _ Exist Numkey<br>
+                    _ Maintenance every year<br>
+                    _ Fix without payment<br>
+    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$55</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/speaker.png" style="width: 55%">
+                <div class="text1">
+                <h4>Speaker</h4>
+                <p>
+                    _ Color: Black<br>
+                    _ Height: 0.65cm<br>
+    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$288</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/mouse.png" style="width: 60%">
+                <div class="text1">
+                <h4>Mouse</h4>
+                <p>
+                    _ Color: Black<br>
+                    _ Feature: Wireless<br>
+    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$15</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/thong.png" style="width: 60%">
+                <div class="text1">
+                <h4>Case</h4>
+                <p>
+                    _ Color: Black<br>
+                    _ Suitable for Gamer<br>
+    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$320</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/red_dragon.png" style="width: 75%">
+                <div class="text1">
+                <h4>Red-Dragon Keyboard</h4>
+                <p>
+                    _ Color: White<br>
+                    _ Feature: Thin and Light<br>
+                    _ RGB light<br>
+                    _ Easy to clean<br>
+    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$35</button>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/rog_monitor.png" style="width: 60%">
+                <div class="text1">
+                <h4>Gaming Monitor</h4>
+                <p>
+                    _ Color: Silver<br>
+                    _ Screen: 17.5 inch<br>
+    
+                    <button type = "button" class="btnbuy" id="btn" onclick="showPaymentForm()">$899</button>
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-form" id="purchaseFormContainer" style="display: none;">
+        <div class="payment-form">
+            <h2 style="text-align: center;">Payment</h2><br>
+            <form>
+                <div class="col-12 col-sm-12">
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Phone number">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Email">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Name of product">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Cost">
+                    <br>
+                </div>
+                <a href="">Forgot Email?</a><br><br>
+      
+                <button type="submit" id="submit">OK</button>
+                <button type="button" id="cancelButton" onclick="cancelPurchase()">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+      
+    <footer class="bg-secondary text-white pt-5 pb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-warning">V-STORE</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda velit quos culpa nihil molestiae nam vero quam dolores impedit, maxime dolorum eum, sint ex accusantium.</p>
+
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Product</h6>
+                    <p>
+                        <a href="#">The provider</a>
+                    </p>
+                    <p>
+                        <a href="#">Creativity</a>
+                    </p>
+                    <p>
+                        <a href="#">SourceFiles</a>
+                    </p>
+                    <p>
+                        <a href="#">Service</a>
+                    </p>
+                    <p>
+                        <a href="#">About</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Useful Links</h6>
+                    <p>
+                        <a href="#">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#">Become an Affiliates</a>
+                    </p>
+                    <p>
+                        <a href="#">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#">FAQs</a>
+                    </p>
+                    <p>
+                        <a href="#">Help</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Contact</h6>
+                    <p>
+                        <i class="fa fa-home mr-3"></i> #230, Mean Chey, Phnom Penh
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> simviseth882@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> 015 633 999
+                    </p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> +01 335 633 77
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>
+                        Copyright 2020 All rights reserved by:
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-white">The Providers</strong>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa fa-telegram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</html>

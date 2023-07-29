@@ -1,0 +1,201 @@
+body {
+    margin-top: 70px;
+    position: relative;
+    background: white;
+}
+
+.content_page {
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 8%;
+    color: #fff;
+}
+
+.content_page h1 {
+    font-size: 50px;
+    font-weight: 1500;
+}
+
+.content_page span {
+    color: #ff7200;
+}
+
+.content_page a {
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display:inline-block;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.content_page a:hover {
+    background: #047758;
+    transition: 0.5s;
+}
+
+.ad {
+    width: 40%;
+    float: right;
+    margin-top: -350px;
+    margin-right: 120px;
+}
+
+.pro_content {
+    width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 425px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 0.5rem;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+.text1 {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.btnbuy {
+    background: #00986f;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+}
+
+.btnbuy:hover {
+    background: #047758;
+    transition: 0.5s;
+    color:#fff;
+}
+
+.navbar-nav li.nav-item a:hover {
+    background-color: #111;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    padding: 8px 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+#submit {
+    background: rgb(50, 79, 225);
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    padding: 8px 25px;
+}
+
+#cancelButton {
+    background: #ccc;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    padding: 8px 20px;
+}
+
+#submit:hover {
+    background: rgb(28, 28, 138);
+}
+
+#cancelButton:hover {
+    background: gray;
+}
+  
+i {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+p a {
+    color: white;
+}
+
+p a:hover {
+    color: #ccc;
+}
+
+.con_content {
+    width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 480px;
+}
+
+.abo_content {
+    padding-bottom: 425px;
+    padding-top: 25px;
+}
+
+.btn-success {
+    background: rgb(44, 44, 240);
+    color: #fff;
+}
+
+.btn-success:hover {
+    background: rgb(31, 31, 151);
+}
+
+.bg-secondary {
+    background: rgb(61, 61, 220);
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.payment-form {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    width: 30%;
+}
+
